@@ -261,9 +261,9 @@ public class MediaPlayerService extends Service {
             views.setTextViewText(R.id.tv_name, title);
             if (desc != null) views.setTextViewText(R.id.tv_author, desc);
             if (isPlaying) {
-                views.setImageViewResource(R.id.iv_pause, android.R.drawable.ic_media_pause);
+                views.setImageViewResource(R.id.iv_pause, R.drawable.ic_pause_black_24dp);
             } else {
-                views.setImageViewResource(R.id.iv_pause, android.R.drawable.ic_media_play);
+                views.setImageViewResource(R.id.iv_pause, R.drawable.ic_play_black_24dp);
             }
         }
 

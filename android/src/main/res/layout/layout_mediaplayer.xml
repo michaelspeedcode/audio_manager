@@ -52,7 +52,7 @@
             android:contentDescription="@null"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
-            android:src="@android:drawable/ic_media_pause" />
+            android:src="@drawable/ic_pause_black_24dp" />
 
         <ImageView
             android:id="@+id/iv_next"
@@ -71,7 +71,7 @@
             android:contentDescription="@null"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
-            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+            android:src="@drawable/ic_close_black_24dp" />
     </LinearLayout>
 
 </LinearLayout>
