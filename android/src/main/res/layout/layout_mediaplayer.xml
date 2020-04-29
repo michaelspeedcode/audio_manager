@@ -36,6 +36,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:lines="1"
+            android:visibility="gone"
             android:text="@string/desc"
             android:textColor="#555" />
     </LinearLayout>
