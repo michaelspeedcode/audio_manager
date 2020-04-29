@@ -29,6 +29,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Objects;
 
+import cc.dync.audio_manager.R;
+
 public class MediaPlayerService extends Service {
     private static final String ACTION_NEXT = "MediaPlayerService_next";
     private static final String ACTION_PREVIOUS = "MediaPlayerService_previous";
@@ -263,7 +265,7 @@ public class MediaPlayerService extends Service {
             if (isPlaying) {
                 views.setImageViewResource(R.id.iv_pause, R.drawable.ic_pause_black_24dp);
             } else {
-                views.setImageViewResource(R.id.iv_pause, R.drawable.ic_play_black_24dp);
+                views.setImageViewResource(R.id.iv_pause, R.drawable.ic_play_arrow_black_24dp);
             }
         }
 
